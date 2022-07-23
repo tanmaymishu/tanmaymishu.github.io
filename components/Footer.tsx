@@ -5,9 +5,12 @@ interface FooterProps {}
 const Footer: FunctionComponent<FooterProps> = (props) => {
   return (
     <>
-      <p className="mt-8 my-5 text-center text-base text-gray-400">
-        &copy; {new Date().getFullYear()} Tanmay Mishu. All rights reserved.
-      </p>
+      <div className="mt-4">
+        <hr />
+        <p className="mt-8 my-5 text-center text-base text-gray-400">
+          &copy; {new Date().getFullYear()} Tanmay Mishu.
+        </p>
+      </div>
     </>
   );
 };
