@@ -140,3 +140,8 @@ theme = 'LoveIt'
       label = "comment"
       lightTheme = "github-light"
       darkTheme = "github-dark"
+[params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = "G-BG4QB6HTZJ"
+      anonymizeIP = true
