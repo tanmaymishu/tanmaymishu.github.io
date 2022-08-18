@@ -114,7 +114,7 @@ theme = 'LoveIt'
   # license info (HTML format is supported)
   license= ""
 [params.social]
-  Twitter = "@tanmaymishu"
+  Twitter = "tanmaymishu"
   LinkedIn = "tanmaymishu"
   Github = "tanmaymishu"
   Medium = "@tanmaymishu"
