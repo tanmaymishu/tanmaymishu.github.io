@@ -5,6 +5,8 @@ categories: [laravel]
 tags: [metaprogramming]
 ---
 
+![Macro](/macro.png)
+
 Often in your controller actions or route closures, you may have come across situations where you want to send a JSON response with an HTTP status, especially when you're working with REST APIs:
 
 ```php

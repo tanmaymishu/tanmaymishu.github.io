@@ -5,6 +5,8 @@ categories: [laravel]
 tags: [metaprogramming]
 ---
 
+![Pipeline](/pipeline.jpeg#feat)
+
 Have you ever wanted to perform a series of tasks/operations on an object (or any type of data) and had to manually build up the process yourself? Did you know that you could easily handle such situations with a pattern that is built into the Laravel framework, called “Pipelines”?
 
 If you’re familiar with the concept of middleware, you already know that when a request enters the application, the request is passed through a series of middleware, traveling from the current middleware to the next. Each middleware can be thought of as a pipe.

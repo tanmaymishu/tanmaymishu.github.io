@@ -6,6 +6,8 @@ categories: [laravel]
 tags: [setup]
 ---
 
+![Vite](/vite.png)
+
 Laravel has recently switched from Laravel Mix to Vite. All the projects in the ecosystem will be using Vite from now on. In this article I will discuss how to configure Vite with Inertia, React, TypeScript in a Laravel Project.
 
 ## Creating a new project

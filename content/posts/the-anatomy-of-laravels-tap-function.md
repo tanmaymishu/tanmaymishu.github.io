@@ -5,6 +5,7 @@ categories: [laravel]
 tags: [metaprogramming]
 ---
 
+![Tap](/tap.webp#feat)
 If there is one thing I really like about the Laravel PHP Framework, it would be its level of code sophistication, whether it is in something as complex as the ORM or even in something as simple as a helper function. The latter is what this article is about.
 
 Laravel has a Ruby-inspired, higher-order function called `tap()`. In a nutshell, the tap helper function takes a value and a callback; passes the value to the callback and returns the value. Let's take a look at how we could implement such a function from scratch in PHP:

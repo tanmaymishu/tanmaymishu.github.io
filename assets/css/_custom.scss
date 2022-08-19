@@ -11,3 +11,9 @@
 .single .content code {
   line-height: 2rem;
 }
+img[src$="#feat"] {
+  display: block;
+  margin: 1rem auto;
+  min-width: 100%;
+  height: auto;
+}
