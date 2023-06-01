@@ -8,10 +8,15 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 .single .content code {
-  overflow-x: scroll;
   line-height: 2rem;
 }
+
+.highlight pre {
+  overflow-x: scroll;
+}
+
 img[src$="#feat"] {
   display: block;
   margin: 1rem auto;
