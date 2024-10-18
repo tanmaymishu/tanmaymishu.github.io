@@ -1,3 +1,44 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://tanmaydas.com"
+title = "Tanmay Mishu"
+author = "Tanmay"
+copyright = "Tanmay Mishu"
+paginate = 10
+languageCode = "en"
+theme = "tailwind"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    logo = "logo-color.png"
+
+  [params.footer]
+    since = 2023
+    poweredby = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Articles"
+    pageRef = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    pageRef = "/portfolio"
+    weight = 8
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 9
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
